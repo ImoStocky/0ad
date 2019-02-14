@@ -657,7 +657,7 @@ static void RunGameOrAtlas(int argc, const char* argv[])
 extern "C" __attribute__((visibility ("default"))) int main(int argc, char* argv[]);
 #endif
 
-extern "C" int main(int argc, char* argv[])
+extern "C" int main(int argc, char** argv)
 {
 #if OS_UNIX
 	// Don't allow people to run the game with root permissions,
