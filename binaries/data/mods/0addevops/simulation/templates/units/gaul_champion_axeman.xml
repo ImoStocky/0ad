@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Cost>
+    <Resources>
+      <metal>75</metal>
+    </Resources>
+  </Cost>
+  <Attack>
+    <Melee>
+      <Hack>20.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>0.0</Crush>
+    </Melee>
+
+  </Attack>
+  <Identity>
+    <Civ>gaul</Civ>
+    <GenericName>Heavy Infantry</GenericName>
+    <SpecificName>Gaul Axeman</SpecificName>
+    <History>?</History>
+    <Icon>units/celt_champion_infantry_gaul.png</Icon>
+    <RequiredTechnology>unlock_champion_units</RequiredTechnology>
+    <SelectionGroupName>units/gaul_champion_axeman</SelectionGroupName>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed>7.0</WalkSpeed>
+    <Run>
+      <Speed>21.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/gaul/champion_axeman.xml</Actor>
+  </VisualActor>
+</Entity>
