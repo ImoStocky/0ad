@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_swordsman_shield_relax.xml">
+      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>	      
+	<prop actor="props/units/shields/celt_round_b.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/axe_single.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Celtic Agen Helmet">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_port.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Celtic Classic Coolus Helmet">
+      <props>
+        <prop actor="props/units/helmets/celt_helmet_classic_coolus.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="Clothes-1">
+      <textures>
+        <texture file="skeletal/celt_isw_b_01.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Clothes-2">
+      <textures>
+        <texture file="skeletal/celt_isw_b_02.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Clothes-3">
+      <textures>
+        <texture file="skeletal/celt_isw_b_03.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Clothes-4">
+      <textures>
+        <texture file="skeletal/celt_isw_b_04.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
+
