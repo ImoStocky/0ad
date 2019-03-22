@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wallset">
+  <Identity>
+    <Civ>antic</Civ>
+    <SpecificName>Moenia</SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/antic_wall_tower</Tower>
+      <Gate>structures/antic_wall_gate</Gate>
+      <WallLong>structures/antic_wall_long</WallLong>
+      <WallMedium>structures/antic_wall_medium</WallMedium>
+      <WallShort>structures/antic_wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.10</MinTowerOverlap>
+  </WallSet>
+</Entity>

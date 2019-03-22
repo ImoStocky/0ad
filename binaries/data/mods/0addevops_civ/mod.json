@@ -1,0 +1,9 @@
+{
+	"name": "0addevops Antics",
+	"version": "0.0.24",
+	"label": "0 A.D. Add civillisation experiment",
+	"url": "https://play0ad.com",
+	"description": "A free, open-source, historical RTS game.",
+	"dependencies": ["0ad"],
+	"type": "expansion"
+}
