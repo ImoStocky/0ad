@@ -4,5 +4,6 @@
 	"label": "0 A.D. Add unit experiment",
 	"url": "https://play0ad.com",
 	"description": "A free, open-source, historical RTS game.",
-	"dependencies": ["0ad"]
+	"dependencies": ["0ad"],
+	"type": "expansion"
 }
