@@ -1,7 +1,7 @@
 {
 	"name": "0addevops",
 	"version": "0.0.24",
-	"label": "0 A.D. Add unit experiment",
+	"label": "0 A.D. Minor game additions",
 	"url": "https://play0ad.com",
 	"description": "A free, open-source, historical RTS game.",
 	"dependencies": ["0ad"],
