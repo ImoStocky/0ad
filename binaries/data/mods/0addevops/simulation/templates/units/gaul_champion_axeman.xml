@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Template xml from which to inherit attributes, located in simulation/templates -->
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Cost>
     <Resources>
@@ -17,6 +18,7 @@
     <GenericName>Heavy Infantry</GenericName>
     <SpecificName>Gaul Axeman</SpecificName>
     <History>Elite warriors form the north, joined forces with gauls</History>
+    <!-- Presentation in GUI, icon of unit in art/textures -->
     <Icon>units/gaul_champion_axeman.png</Icon>
     <RequiredTechnology>unlock_champion_units</RequiredTechnology>
     <SelectionGroupName>units/gaul_champion_axeman</SelectionGroupName>
@@ -28,6 +30,7 @@
     </Run>
   </UnitMotion>
   <VisualActor>
+    <!-- Link to modified actor in art/actors-->
     <Actor>units/gauls/champion_axeman.xml</Actor>
   </VisualActor>
 </Entity>
